@@ -1,11 +1,14 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-    background: linear-gradient(to right, red, yellow);
+    background: linear-gradient(to right, #ff0000, #ffff00);
 }
 
 h1 {
